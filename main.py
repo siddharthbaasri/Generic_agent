@@ -3,7 +3,7 @@ from agent import Agent
 
 def main():
     agent = Agent(
-        skill_file_path="./skill.md" 
+        skill_file_path="./skills/skill.md" 
     )
     result = agent.run("What is the weather in New York")
     print(result)
